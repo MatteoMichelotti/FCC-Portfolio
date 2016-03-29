@@ -1,59 +1,68 @@
 html, body {
-  height: 100%;
   font-family: 'Montserrat', sans-serif;
 }
 
-div {
-  /*border: 1px red solid;*/
-}
-
-h1, h3 {
-  padding: 30px;
-  font-family: 'Passion One', sans-serif;
-}
-
-hr {
-  width: 80%;
-}
-
-.jumbotron {
-  color: white;
-  background: rgba(42,54,56,0.7);
-}
-
-.thumbnail .caption{
-  color: white;
-}
-
-.thumbnail {
-  background: rgba(42,54,56,0.7);
-}
-
-.caption {
-  font-size: 1.2em;
-}
-
-.row {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.scroll {  
-  height: 100%;
-  min-height: 800px;
+body {
   background: no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 10%;
+  background-image: url(https://images.unsplash.com/photo-1453282716202-de94e528067c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=b728a81d3d86cef518b3a2975d66a6df);
 }
 
-#home { background-image: url(https://images.unsplash.com/photo-1453282716202-de94e528067c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=b728a81d3d86cef518b3a2975d66a6df); }
+hr {
+  width: 80%;
+}
 
-#about { background-image: url(https://images.unsplash.com/photo-1457528877294-b48235bdaa68?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=61dec2a692e954716e5b459bf8f89a91); }
+h1 {
+  padding: 6% 0;
+}
 
-#portfolio { background-image: url(https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=f970569757f900368f1cf68f46cb92bb); }
+.img-circle {
+  width: 20%;
+  min-width: 150px;
+}
 
-#contact { background-image: url(https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2b9eab49407436fcdf8c92b37d784425); }
+div > p {
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+#home, #about, #portfolio {
+  background: rgba(42,54,56,0.7);
+  text-align: center;
+}
+
+.jumbotron {
+  background: none;
+  border: none;
+}
+
+.thumbnail {
+  background: none;
+  border-color: rgba(85,96,103,0.5);
+}
+
+.thumbnail .caption {
+  color: white;
+}
+
+.panel {
+  background: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body > .container {
+  color: white;
+  padding-top: 70px;
+}
+
+h1 > small {
+  color: white;
+}
