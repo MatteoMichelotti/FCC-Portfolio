@@ -31,7 +31,7 @@ div > p {
 }
 
 #home, #about, #portfolio {
-  background: rgba(42,54,56,0.7);
+  background: rgba(42,54,56,0.8);
   text-align: center;
 }
 
@@ -56,6 +56,11 @@ div > p {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.well {
+  background: rgba(42,54,56,0.8);  
+  border-color: rgba(85,96,103,0.5);
 }
 
 body > .container {
